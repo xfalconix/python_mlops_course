@@ -16,6 +16,46 @@ __pycache__/
 # Environment variables and secrets
 .env
 *.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+config.yaml
+config.yml
+
+# AWS credentials
+.aws/credentials
+.aws/config
+
+# SSH and cryptographic keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.pub
+*.pkcs12
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# API keys and tokens
+.apikey
+*.apikey
+*.token
+jwt.json
+
+# Google credentials
+*-gcp-*.json
+google_credentials.json
+
+# Azure credentials
+azure_credentials.json
+
+# Database files with credentials
+db.sqlite3
+*.db
+dump.sql
 
 # Build artifacts
 build/
