@@ -9,7 +9,7 @@
 
 Practica de Python aplicada a MLOps, basada en el curso de LinkedIn Learning **[Complete Guide to Python Fundamentals for MLOps](https://www.linkedin.com/learning/complete-guide-to-python-fundamentals-for-mlops)**.
 
-Construido como parte del Master en Big Data, Data Engineering & AI — ESESA, Malaga 2025-2026.
+Repositorio de ejercicios para practicar los fundamentos de Python.
 
 ---
 
@@ -26,13 +26,13 @@ Construido como parte del Master en Big Data, Data Engineering & AI — ESESA, M
 | `04_Tuples_and_sets.ipynb` | Tuplas y sets: inmutabilidad y operaciones de conjuntos |
 | `04_Working_with_functions.ipynb` | Funciones: argumentos, returns, scope |
 | `05_building_clasees_and_methods.ipynb` | Programacion orientada a objetos: clases y metodos |
-| `06_Python_functions_and_classes.ipynb` | Funciones avanzadas y clases en profundidad |
+| `06_Python_functions_and_classes.ipynb` | Imports, modulos, paquetes y scripts |
 
 ### Testing con pytest
 
 | Archivo | Tema |
 |---------|------|
-| `07_Testing.ipynb` | Introduccion a testing con pytest |
+| `07_Testing.ipynb` | Introduccion a unittest, asserts y pytest |
 | `08_test_functions.py` | Tests unitarios para funciones |
 | `08_test_classes.py` | Tests unitarios para clases |
 | `08_test_utils.py` | Tests para utilerias |
@@ -43,7 +43,7 @@ Construido como parte del Master en Big Data, Data Engineering & AI — ESESA, M
 |---------|------|
 | `10_Introduction_to_pandas.ipynb` | Introduccion a pandas para analisis de datos |
 
-### Codigo de produccion
+### Modulos de ejemplo
 
 ```
 program/
@@ -88,14 +88,17 @@ jupyter notebook
 pytest -v
 ```
 
+Los ejercicios incluyen casos didacticos que pueden fallar deliberadamente; revisar cada test antes de interpretar el resultado.
+
+
 ---
 
-## Que demuestra este repo
+## Conceptos practicados
 
-- Dominio solido de **Python fundamentals** (POO, funciones, estructuras de datos)
-- Habilidad de escribir **tests unitarios** con pytest
-- Capacidad de estructurar un **proyecto de Python** con modulos y paquetes
-- Familiaridad con **pandas y NumPy** para procesamiento de datos
+- **Fundamentos de Python**: POO, funciones y estructuras de datos
+- Ejemplos de **tests unitarios** con pytest
+- Organizacion de ejemplos en **modulos y paquetes**
+- Introduccion a **pandas y NumPy**
 
 Estos fundamentos son el cimiento de cualquier pipeline MLOps: scripts de ingestion, feature engineering, training loops y serving scripts se escriben en Python.
 
